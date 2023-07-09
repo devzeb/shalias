@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function call_untar() {
   # check if tar is installed
   if ! command -v tar &>/dev/null; then
